@@ -1,0 +1,88 @@
+nav{
+    display: flex;
+    padding: 0.5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a {
+    color: rgb(58, 49, 60);
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgb(194, 136, 244);
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f0e8e8;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+hr{
+   
+    margin-top: 0.1em;
+
+}
+.catg{
+    width: 80%;
+    margin: auto;
+    color:rgb(58, 49, 60) ;
+    padding-top: 70px;
+
+}
+.catg h1{
+    font-size: 36px;
+    font-weight: 600;
+}button a{
+    text-decoration: none;
+    color: rgb(56, 39, 70);
+}
+
+#table{
+    width:100%;
+    text-align: center;
+    position: relative;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:0px;
+}
+table td{
+    padding:20px;
+}
+.div1{
+    background-color: rgb(250, 230, 255);
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 2px rgb(182, 139, 220);
+    transition: 0.5s;
+}
+.div1:hover{
+    transform:scale(0.9);
+    box-shadow:0px 0px 5px 7px #dcc3e8;
+    transition: 0.3s;
+}
+.btn{
+    padding:5px 15px 5px 15px;
+    border-radius: 20px 4px 20px 4px;
+    border:none;
+    text-decoration: none;
+    background-color: #8f6e9e;
+}
