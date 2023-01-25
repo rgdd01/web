@@ -33,10 +33,14 @@
            <input type="tel"  name="mobile"  required>
 
         <p id="BD">Birth day date</p> <p id ="BDc" > Today is your Birthday ? you will get 10% discount </p>
-           <input type="date"  name="date">
+        
+        <input style="width: 25px;" type="text" name="day" id="day" placeholder="dd" max="2" min="1">
+        <input style="width: 30px;"type="text" name="month" id= "month"placeholder="mm" max="2" min="1">
+        <input style="width: 80px;" type="text" name="year" id="year" placeholder="yyyy" max="4" min="4">
+        <input type="button" name="submit" value="Check"  onclick="age()"> 
         
         <p>Comments</p>
-          <input style = "width: 450px; height: 60px;"type="text"  name="Comments" placeholder="Anything you would like us to know adbout your appointment" >
+          <input style = "width: 450px; height: 60px;"type="text"  name="Comments" placeholder="Anything you would like us to know about your appointment" >
            <br>   
         <p>
          <input type="submit" value="Confirm" onclick="Confirm()">
