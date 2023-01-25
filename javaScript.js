@@ -2,6 +2,7 @@ function Confirm(){
 
    // window.alert("your reservation has been successfully confirmed");
      document.getElementById('Confirm').innerHTML = 'your reservation has been successfully confirmed';
+
 }
 function age(){
   var ud = document.getElementById('day').value;
@@ -29,3 +30,7 @@ function age(){
         document.getElementById('BDc').innerHTML='Sorry , today is not your birthday !';
       }
 }  
+
+
+}
+
