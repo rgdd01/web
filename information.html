@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|emboss|Audiowide">
+    <title>Log in</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "javaScript.js"></script>
+    
+</head>
+
+<body>
+            
+    <header> 
+        
+            
+        <a href="homepage.html"><img src="logo.jpeg" alt="logo" height="120px" width="190px"></a> <!--ربط اللوقو بالصفحة الرئيسية-->
+        <div class="nav-links">
+          <ul>
+           <li><a href="homepage.html">Home</a></li>
+          </ul>
+      </div>
+        
+    </header>
+ <hr>
+   <div class="information">
+     <form autocomplete="on">
+         <div id ="Confirm">
+          <h2>Enter your information</h2>
+           
+          <p>Name </p>
+            <input type="text"  name="name" required >
+               
+        <p>Email</p>
+            <input type="email"  name="email" placeholder="name@domain.com"  required>
+              
+        <p>Mobile</p>
+           <input type="tel"  name="mobile"  required>
+
+        <p id="BD">Birth day date</p> <p id ="BDc" > Today is your Birthday ? you will get 10% discount </p>
+        
+        <input style="width: 25px;" type="text" name="day" id="day" placeholder="dd" max="2" min="1">
+        <input style="width: 30px;"type="text" name="month" id= "month"placeholder="mm" max="2" min="1">
+        <input type="button" name="submit" value="Check"  onclick="age()"> 
+        
+        <p>Comments</p>
+          <input style = "width: 450px; height: 60px;"type="text"  name="Comments" placeholder="Anything you would like us to know about your appointment" >
+           <br>   
+        <p>
+         <input type="submit" value="Confirm" onclick="Confirm()">
+        </p>  
+        </div> 
+</form>
+   
+</div>   
+<footer>
+</footer>
+    
+</body>
+<script src = "javaScript.js"></script>
+</html>
