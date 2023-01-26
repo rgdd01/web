@@ -200,3 +200,14 @@ em{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 30px;
 }
+
+.titleTimePage{
+    background-color: rgba(174, 166, 174, 0.705);
+    text-align: center;
+    width: 450px;
+    height: 30px;
+    margin-left: 42%;
+    font-size: 40px;
+    text-decoration: underline;
+
+}
