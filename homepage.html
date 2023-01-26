@@ -3,72 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica|Aboreto|Alef|Arima Madurai|Tajawal|El Messiri|Harmattan ">
+
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/ec3d897820.js" crossorigin="anonymous"></script>
+
     <title>home page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href=><img src="logo.jpeg" alt="logo" height="120px" width="190px"></a> 
-            <div class="nav-links">
-                <ul>
-                 <li><a href="homepage.html">Home</a></li>
-                </ul>
-            </div>
-        </nav>
-     </header>
- <hr>
- <section class="catg">
-    <h1><center>Welcome to lavender Salon</center></h1>
+
+    <!-- Start Header -->
+    <section class="header">
+            <nav class="bar">
+                <p id="logo">Lavander</p>
+                <div class="nav-bar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="">About us</a></li>
+                       </ul>
+                </div>
+            </nav>
+    <!-- end Header -->
     
-</section>
 
- <table id="table">
-    <tr>
-        <td class="tableHomePage">
-            <div class="div1">
-                <img src="img/img1.JPG" style="width: 50%;" /><br><br>
-                <p>Hair</p><br>
-                <button class="btn"><a href="hair.html">Search</a></button>
-                <br /><br />
-            </div>
-        </td>
-        <td class="tableHomePage">
-            <div class="div1">
-                <img src="img/img2.JPG" style="width: 50%;" /><br><br>
-            <p>Nails</p><br>
-            <button class="btn"><a href="Nails.html">Search</a></button>
-            <br /><br />
-            </div>
-        </td>
-        <td class="tableHomePage">
-            <div class="div1">
-                <img src="img/img3.JPG" style="width: 50%;" /><br><br>
-            <p>Massage</p><br>
-            <button class="btn"><a href="spa.html">Search</a></button>
-            
-            <br /><br />
-            </div>
-        </td>
-        
-    </tr>
-  
+    <!-- Welcom to salon -->
+    <div class="content">
+        <h1 >Welcome to lavender Salon</h1>
+        <p> شعارنا الاهتمام بالعميل وتقديم خدمات مثالية</p>
+    </div>   
+    </section>
     
-</table>
 
- <footer>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <hr>
-    <br>
-    <br>
+    <!-- Our Services -->
+    <section class="services">
+        <p id="text"> الخدمات</p>
+        <table id="table">
+            <tr>
+                <td class="tableHomePage">
+                    <div class="div1">
+                        <img src="hair.jpg" id="img" style="width: 50%;" /><br><br>
+                        <p>Hair</p><br>
+                        <button class="btn"><a href="hair.html">Select</a></button>
+                        <br /><br />
+                    </div>
+                </td>
 
-    <h3>contact us</h3>
+                <td class="tableHomePage">
+                    <div class="div1">
+                        <img src="nail.jpg" id="img" style="width: 50%;" /><br><br>
+                    <p>Nails</p><br>
+                    <button class="btn"><a href="Nails.html">Select</a></button>
+                    <br /><br />
+                    </div>
+                </td>
 
-    </footer>
+                <td class="tableHomePage">
+                    <div class="div1">
+                        <img src="spa.jpg" id="img" style="width: 50%;" /><br><br>
+                    <p>Massage</p><br>
+                    <button class="btn"><a href="spa.html">Select</a></button>
+                    
+                    <br /><br />
+                    </div>
+                </td>
+                
+            </tr>
+        </table>
+    </section>
+
+    <!-- التقييم  -->
+    <section class="rate">
+        <p id="text1">ماذا قالوا عنا</p>
+
+        <br><br><br>
+        <div class="cus">
+            <div class="users">
+                <img src="user1.jpg" alt="user1" >
+                <div>
+                    <h3>Huda khalied</h3>
+                    <p>خدمات رائعة</p>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+
+            <div class="users">
+                <img src="user2.jpg" alt="user2" >
+                <div>
+                    <h3>Norah mohammed</h3>
+                    <p> حبيت خدمة تقشير الجسم تستحق التجربة </p>
+                    <i class="fa-solid fa-star" ></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+
+            <div class="users">
+                <img src="user3.jpg" alt="user3" >
+                <div>
+                    <h3>Hala abdullah</h3>
+                    <p>المكان حلو ومنظم والخدمة سريعة وحلوة</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="users">
+                <img src="user4.jpg" alt="user4" >
+                <div>
+                    <h3>Fi alotabi</h3>
+                    <p>اتمنى يفتح فرع ثاني لانه رهيب مره </p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<!-- end page -->
+   <section class="footer">
+    <p id="end">Conact us</p><br>
+
+    <p id="foot">By sending an email</p> <i class="fa-sharp fa-solid fa-envelope"></i><br>
+    <p id="foot">Or Whats app  </p><i class="fa-regular fa-comment"></i><br><br>
+
+    <br>
+    <h5>&copy جميع الحقوق محفوظة لصالون لافندر 2023-2024</h5>
+
+   </section>
     
 </body>
 </html>
