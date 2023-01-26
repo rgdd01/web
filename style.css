@@ -87,9 +87,6 @@ hr{
     background-color: #8f6e9e;
 }
 
-/*hair bage */
-
-
 .tabelHair{
     background-color: rgba(209, 197, 180, 0.861);
     text-align: left;
@@ -182,4 +179,35 @@ em{
 
 #text1{
     width: 70px;
+}
+
+.timeDateTabel{
+    margin-top: 3%;
+    margin-left: 30%;
+    background-color: rgba(209, 197, 180, 0.861);
+    opacity: 0.9;
+    border: 1px solid rgba(95, 53, 88, 0.639);
+    border-width: medium;
+    border-radius: 60px;
+    padding: 50px;
+    height: 100px;
+    width: 480px;
+    position: relative;
+}
+
+.optionStyle{
+    background-color: rgba(174, 166, 174, 0.705);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+}
+
+.titleTimePage{
+    background-color: rgba(174, 166, 174, 0.705);
+    text-align: center;
+    width: 450px;
+    height: 30px;
+    margin-left: 42%;
+    font-size: 40px;
+    text-decoration: underline;
+
 }
