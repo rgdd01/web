@@ -155,8 +155,13 @@ em{
     font-size: 12px;
     margin-left: 200px;
 }
+#BDc{
+    font-size: small;
+    color: rgb(150, 147, 147);
+}
 
 
+<<<<<<< HEAD
 /* bottum sitiing */
 button {
     display: flex;
@@ -192,3 +197,40 @@ button {
   
   
   
+=======
+/* spa page */
+
+.spa{
+    background-color: rgba(209, 197, 180, 0.861);
+    text-align: left;
+    width: 1000px;
+    height: 600px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 100px;
+    padding: 20px;
+    border: 1px solid rgba(95, 53, 88, 0.639);
+    
+}
+
+#text{
+    width: 350px;
+}
+
+#text1{
+    width: 70px;
+}
+>>>>>>> abd6d39e51e6728c4d4a7fc4013448d4b7fa0c56
+.dateTimeBox{
+    margin-top: 3%;
+    margin-left: 5%;
+    background-color: rgb(210, 49, 49);
+    opacity: 0.9;
+    border: 1px solid black;
+    border-width: medium;
+    border-radius: 5px;
+    padding: 50px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
