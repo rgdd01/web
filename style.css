@@ -87,9 +87,6 @@ hr{
     background-color: #8f6e9e;
 }
 
-/*hair bage */
-
-
 .tabelHair{
     background-color: rgba(209, 197, 180, 0.861);
     text-align: left;
@@ -161,43 +158,6 @@ em{
 }
 
 
-<<<<<<< HEAD
-/* bottum sitiing */
-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    outline: none;
-    cursor: pointer;
-    width: 80px;
-    height: 30px;
-    background-image: linear-gradient(to top,  rgba(160, 152, 145, 0.447) 0%, rgba(160, 152, 145, 0.447) 80%,  rgba(160, 152, 145, 0.447) 100%);
-    border-radius: 30px;
-    border: 1px solid #8F9092;
-    transition: all 0.2s ease;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: #646262;
-    text-shadow: 0 1px #fff;
-    margin-left: 300px;
-  }
-  
-  button:hover {
-    box-shadow: 0 1px 1px 1px  rgba(155, 109, 143, 0.623), 0 1px 1px  rgba(155, 109, 143, 0.623), 0 -1px 1px  rgba(155, 109, 143, 0.623), 0 -1px 1px  rgba(155, 109, 143, 0.623), inset 0 0 1px 1px #CECFD1;
-  }
-  
-  button:active {
-    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
-  }
-  
-  button:focus {
-    box-shadow: 0 2px 2px 1px #626262b3, 0 2px 2px #626262b3, 0 -2px 2px #626262b3, 0 -2px 2px #626262b3, inset 0 0 2px 2px #999, inset 0 0 30px #aaa;
-  }
-  
-  
-  
-=======
 /* spa page */
 
 .spa{
@@ -220,17 +180,23 @@ button {
 #text1{
     width: 70px;
 }
->>>>>>> abd6d39e51e6728c4d4a7fc4013448d4b7fa0c56
-.dateTimeBox{
+
+.timeDateTabel{
     margin-top: 3%;
-    margin-left: 5%;
-    background-color: rgb(210, 49, 49);
+    margin-left: 30%;
+    background-color: rgba(209, 197, 180, 0.861);
     opacity: 0.9;
-    border: 1px solid black;
+    border: 1px solid rgba(95, 53, 88, 0.639);
     border-width: medium;
-    border-radius: 5px;
+    border-radius: 60px;
     padding: 50px;
-    height: 250px;
-    width: 250px;
+    height: 100px;
+    width: 480px;
     position: relative;
+}
+
+.optionStyle{
+    background-color: rgba(174, 166, 174, 0.705);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
 }
