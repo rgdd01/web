@@ -4,163 +4,142 @@
     <meta charset="UTF-8">
     <title>spa</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica|Aboreto|Alef|Arima Madurai|Tajawal|El Messiri|Harmattan ">
+
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/ec3d897820.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
-    <header>
-        <nav>
-            <a href=><img src="logo.jpeg" alt="logo" height="120px" width="190px"></a> 
-            <div class="nav-links">
+     <!-- Start Header -->
+     <header>
+        <nav class="bar-page">
+            <p id="logo-page">Lavander</p>
+            <div class="nav-bar-page">
                 <ul>
-                 <li><a href="homepage.html">Home</a></li>
-                    <li><a href="#">Log-in</a></li>
-                    <li><a href="#">Sign-Up</a></li>
-                    
-                    
- 
-                     
-                   
-                </ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="work.html">Work hour</a></li>
+
+                   </ul>
             </div>
         </nav>
      </header>
+    <!-- end Header -->
+
 
        
-    <div class="select">Selesct Service</div>
-   <div class="spa">
+   <div class="select">Selesct Service</div>
+   <div class="tableSpa">
     <form>
         <table>
             <tr>
                 <th colspan="3" style="background-color: rgba(174, 166, 174, 0.705); text-align: center;">
-                    <strong>Spa خدمات السبا</strong>
+                    <strong>Spa<span id="title"> خدمات السبا </span></strong>
                 </th>
             </tr>
            
             <tr>
                 <td id="text">
-                  <span> <p>Moroccan Nila bath <br>حمام النيلة المغربية  <br><em> SAR390</em> </p>  
+                  <span> <p>Moroccan Nila bath <br>حمام النيلة المغربية  <br><em> 390 SAR</em> </p>  
                 </td>
                 <td>
                    <em id="time"> 60mins.</em> 
                 </td>
                 <td>
-                 <input type="submit" value="Select" style="margin-left: 500px">
+                 <input type="submit" id="but-select" value="Select" style="margin-left: 500px">
                 </td>
             </tr>
 
             <tr>
               <td id="text">
-                <p>Aker Fassi Bath <br> حمام العكر الفاسي <br><em>SAR390</em></p>     
+                <p>Aker Fassi Bath <br> حمام العكر الفاسي <br><em>390 SAR</em></p>     
               </td>
               <td>
                 <em id="time"> 60mins.</em> 
                </td>
                <td>
-                <input type="submit" value="Select" style="margin-left: 500px">
+                <input type="submit" id="but-select" value="Select" style="margin-left: 500px">
                </td>
             </tr>
         <tr>
-            <td >
-                <p> Relaxing massage مساج استرخائي <em>SAR180</em></p> 
+            <td id="text" >
+                <p> Relaxing massage<br> مساج استرخائي <br><em>180 SAR</em></p> 
                  
                 </td>
                 <td>
                     <em id="time"> 30mins.</em> 
                  </td>
             <td>
-                <input type="submit" value="Select" style="margin-left: 500px">
+                <input type="submit" id="but-select" value="Select" style="margin-left: 500px">
             </td>
         </tr>
         <tr>
-            <td>
-                <p> Relaxing massage  مساج استرخائي <em>SAR220</em></p>
+            <td id="text"> 
+                <p> Relaxing massage <br> مساج استرخائي <br><em>220 SAR</em></p>
             </td>
             <td>
                 <em id="time"> 60mins. </em> 
              </td>
             <td>
-                <input type="submit" value="Select" style="margin-left: 500px">
+                <input type="submit" id="but-select" value="Select" style="margin-left: 500px">
             </td>
         </tr>
     
     
         <tr>
             <td id="text">
-                <p>Hot stones massage <br> مساج الاحجار الساخنة  <br><em>SAR 300</em> </p>  
+                <p>Hot stones massage <br> مساج الاحجار الساخنة  <br><em> 300 SAR</em> </p>  
             </td>
             <td>
                 <em id="time"> 90mins.</em> 
              </td>
             <td>
-                <input type="submit" value="Select" style="margin-left: 500px">
+                <input type="submit" id="but-select" value="Select" style="margin-left: 500px">
             </td>
         </tr>
      
         <tr>
             <td id="text">
-                <p> Neck & Back massage<br> مساج الرقبة والظهر <br><em>SAR80</em> </p>  
+                <p> Neck & Back massage<br> مساج الرقبة والظهر <br><em>80 SAR</em> </p>  
             </td>
             <td>
                 <em id="time"> 30mins.</em> 
              </td>
             <td>
-                <input type="submit" value="Select" style="margin-left: 500px">
+                <input type="submit" id="but-select" value="Select" style="margin-left: 500px">
             </td>
         </tr>
         <tr>
-            <td id="text1">
-                <p>Body peeling  تقشير الجسم <em>SAR350</em></p>  
+            <td id="text">
+                <p>Body peeling <br> تقشير الجسم <br><em>350 SAR</em></p>  
             </td>
             <td>
                 <em id="time"> 60mins.</em> 
              </td>
             <td>
-                <input type="submit" value="Select" style="margin-left: 500px">
+                <input type="submit" id="but-select" value="Select" style="margin-left: 500px">
             </td>
         </tr>
       </table>
     </form>
    </div>
 
-   <table class="workHour" >
-    <caption><strong>businesshours</strong> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-      </svg></caption>
-    <tbody> 
-        <tr>
-            <td>monday </td>
-            <td id="time">11:00<sub>AM</sub> 9:00 <sub>PM</sub></td>
-        </tr>
+   <!-- footer part -->
+   <section class="footer1">
+    <div>
+        
+        <hr>
+    <p id="end"><b>Contact us</b></p><br>
 
-        <tr>
-            <td>tuesday</td>
-            <td id="time">11:00<sub>AM</sub> 9:00 <sub>PM</sub></td>
-        </tr>
-        <tr>
-            <td>wednesday</td>
-            <td id="time">11:00<sub>AM</sub> 9:00 <sub>PM</sub></td>
-        </tr>
-        <tr>
-            <td>thursday</td>
-            <td id="time">11:00<sub>AM</sub> 9:00 <sub>PM</sub></td>
-        </tr>
-        <tr>
-            <td>friday</td>
-            <td id="time">2:00<sub>PM</sub> 9:00 <sub>PM</sub></td>
-        </tr>
-        <tr>
-            <td>Saturday</td>
-            <td id="time">11:00<sub>AM</sub> 9:00 <sub>PM</sub></td>
-        </tr>
-        <tr>
-            <td>sunday</td>
-            <td id="time">CLOSED</td>
-        </tr>
-    </tbody>
-   </table>
-   
+    <p id="foot">By sending an email</p> <i class="fa-sharp fa-solid fa-envelope"></i><br>
+    <p id="end">Whats app  </p><i class="fa-regular fa-comment"></i><br><br>
 
+    <br>
+    <h5>&copy جميع الحقوق محفوظة لصالون لافندر 2023-2024</h5>
+    </div>
+   </section>
 
 
 </body>
