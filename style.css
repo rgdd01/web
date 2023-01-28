@@ -330,10 +330,6 @@ em{
     margin-left: 200px;
 }
 
-#BDc{
-    font-size: small;
-    color: rgb(150, 147, 147);
-}
 
 #title{
     font-family: Tajawal;
@@ -423,3 +419,82 @@ em{
     margin-top: 10px;
 
 }
+/* -------------------------------------------------------------- */
+/*----------------------------------------------------------------*/
+/* time page */
+
+.timeDateTabel{
+    margin-top: 3%;
+    margin-left: 30%;
+    background-color: rgba(209, 197, 180, 0.861);
+    opacity: 0.9;
+    border: 1px solid rgba(95, 53, 88, 0.639);
+    border-width: medium;
+    border-radius: 30px;
+    padding: 50px;
+    height: 100px;
+    width: 480px;
+    position: relative;
+}
+
+.optionStyle{
+    background-color: rgba(174, 166, 174, 0.705);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+}
+
+.titleTimePage{
+    background-color: rgba(174, 166, 174, 0.705);
+    text-align: center;
+    width: 450px;
+    height: 30px;
+    margin-left: 44%;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+/* -------------------------------------------------------------- */
+/*----------------------------------------------------------------*/
+/* information page */
+
+.infoTabel{
+    margin-top: 3%;
+    margin-left: 30%;
+    background-color: rgba(209, 197, 180, 0.861);
+    opacity: 0.9;
+    border: 1px solid rgba(95, 53, 88, 0.639);
+    border-width: medium;
+    border-radius: 30px;
+    padding: 50px;
+    height: 450px;
+    width: 500px;
+    position: relative;
+    text-align: center;
+}
+.titleInfoPage{
+    background-color: rgba(174, 166, 174, 0.705);
+    text-align: center;
+    width: 400px;
+    height: 30px;
+    margin-top: 2%;
+    margin-left: 37.5%;
+    font-size: 30px;
+    text-decoration: underline;
+}
+#BDc{
+    font-size: small;
+    color: rgb(74, 72, 72);
+}
+.inputStyle{
+    background-color: rgb(227, 227, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color:rgb(215,215,201) ;
+}
+.buttonStyle{
+    background-color: rgb(255, 255, 255);
+    border-color:rgb(215,215,201) ;
+    color: rgb(33, 33, 33);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
