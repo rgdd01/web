@@ -19,12 +19,12 @@
 
 /* start style bar "Home" */
 
-nav{
+/* nav{
     display: flex;
     padding: 1.9% 3%;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 #logo{
     font-family: Aclonica;
@@ -432,9 +432,10 @@ em{
     border-width: medium;
     border-radius: 30px;
     padding: 50px;
-    height: 100px;
+    height: 200px;
     width: 480px;
     position: relative;
+    text-align: center;
 }
 
 .optionStyle{
@@ -452,6 +453,47 @@ em{
     font-size: 30px;
     text-decoration: underline;
 }
+/* selecting time in date/time page */
+
+.timeLinks{
+    font-weight: 500;
+    color:black;
+    border: 1px solid black;
+    text-align: center;
+    width: 6em;
+    background-color: rgba(174, 166, 174, 0.705);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.timeLinks .timeUL{
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.timeLinks:hover .timeUL{display: block;}
+
+.timeLinks .timeUL .timeLi{
+    border-top: 1px solid rgb(82, 82, 82);
+    background-color:  rgba(174, 166, 174, 0.705);
+    width: 6em;
+    color: black;
+    text-align: center;
+    
+}
+
+.timeLinks .timeUL .timeLi:hover{
+    background-color: #868686;
+}
+
+.timeA{
+    text-decoration: none;
+    color: black;
+}
+
 
 
 /* -------------------------------------------------------------- */
@@ -498,3 +540,5 @@ em{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* -------------------------------------------------------------- */
+/*----------------------------------------------------------------*/
