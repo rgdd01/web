@@ -150,14 +150,51 @@ button a{
 }
 .tableHomePage {
     padding:20px;
+   
 }
 .div1{
+    width: 300px;
+    height: 300px;
+    background-image: url('hair.JPG');
+    background-position: center;
+    background-size: cover;
     background-color: rgba(250, 230, 255, 0.516);
     padding:20px;
     border-radius: 10px;
     transition: 0.5s;
 }
 .div1:hover{
+    transform:scale(0.9);
+    transition: 0.3s;
+}
+.div3{
+    width: 300px;
+    height: 300px;
+    background-image: url('mssage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(250, 230, 255, 0.516);
+    padding:20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div3:hover{
+    transform:scale(0.9);
+    transition: 0.3s;
+}
+.div2{
+    
+    width: 300px;
+    height: 300px;
+    background-image: url('nail.JPG');
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(250, 230, 255, 0.516);
+    padding:20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div2:hover{
     transform:scale(0.9);
     transition: 0.3s;
 }
