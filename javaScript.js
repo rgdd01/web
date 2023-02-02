@@ -16,8 +16,14 @@ function age(){
       else{
         document.getElementById('BDc').innerHTML='Sorry , today is not your birthday !';
       }
-}  
+} 
 
 
 
-
+  var a = document.querySelector('#start');
+  var date= new Date();
+  a.value =
+  + date.getFullYear().toString()+'-'
+  +(date.getMonth()+1).toString().padStart(2,0)+'-'+date.getDate().toString().padStart(2,0);
+ 
+  
