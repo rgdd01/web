@@ -551,7 +551,7 @@ em{
     
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
     font-weight: 500;
     color: #000;
     background-color: rgba(174, 166, 174, 0.705);
@@ -561,7 +561,7 @@ em{
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-    width: 100px;
+    width: 200px;
     height: 30px;
     text-align: center;
     margin-left: 400px;
@@ -581,7 +581,7 @@ em{
 
   /* -------------------------------------------------------------- */
 /*----------------------------------------------------------------*/
-/* botton sitting in nail page  */
+/* botton sitting in nail page/spa page  */
 
 .selectingBottonN {
     
