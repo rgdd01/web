@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|emboss|Audiowide">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "javaScript.js"></script>
+    
+</head>
+
+<body style="background-color: #F0ECE3;">
+            
+    <!-- Start Header -->
+    <header>
+      <nav class="bar-page">
+          <p id="logo-page">Lavander</p>
+          <div class="nav-bar-page">
+              <ul>
+                  <li><a href="homepage.html">Home</a></li>
+                  <li><a href="work.html">Work hour</a></li>
+
+                 </ul>
+          </div>
+      </nav>
+   </header>
+  <!-- end Header -->
+
+ <p class="titleInfoPage">Enter your information</p>
+   <div class="timeDateTabel">
+     <form autocomplete="on" action="/login" method="POST">
+         <div id ="Confirm">
+          
+        
+        <p> UserName </p>
+            <input class="inputStyle" type="text"  name="name" required >
+        <br> 
+        <br>
+        <br> 
+        <br> 
+        <p>Password</p>
+           <input class="inputStyle" type="password"  name="password"  required>
+        <br> 
+        <br> 
+
+        <a href="signup.html" style="text-decoration: none;"> <p>you do not have account?</p><br></a>
+
+        <p>
+         <input class="buttonStyle" type="submit" value="Confirm" onclick="Login()">
+        </p> 
+
+        
+        </div> 
+</form>
+   
+</div>   
+<footer>
+</footer>
+    
+</body>
+<script src = "javaScript.js"></script>
+</html>

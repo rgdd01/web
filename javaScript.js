@@ -18,12 +18,9 @@ function age(){
       }
 } 
 
-
-
-  var a = document.querySelector('#start');
-  var date= new Date();
-  a.value =
-  + date.getFullYear().toString()+'-'
-  +(date.getMonth()+1).toString().padStart(2,0)+'-'+date.getDate().toString().padStart(2,0);
+function getDate(){
+    var today = new Date();
+document.getElementById("date").value = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
+}
  
   
