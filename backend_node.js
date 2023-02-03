@@ -3,6 +3,10 @@ var path = require("path");
 const app = express()
 const port = 3000
 
+//for styling of html-css pages
+app.set('view engine' , 'ejs')
+app.use(express.static('public'))
+
 app.use(express.urlencoded());
 app.use(express.static(path.join(__dirname,'./')));
 
@@ -27,4 +31,11 @@ app.all('/login', (req, res) => {
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
+})
+
+
+// if the page  not found 
+app.use( (req , res) => {
+  res.render("errorpage")
+
 })
