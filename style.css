@@ -369,8 +369,9 @@ em{
 }
 
 #time{
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 200px;
+    padding: 8px;
 }
 
 
@@ -451,8 +452,8 @@ em{
     margin-top: 50px;
     position: relative;
     margin-left: 500px ;
-    border: 1px solid rgb(243, 158, 211);
-    padding-bottom: 4px; 
+    border: 1px solid rgb(142, 92, 123);
+    padding: 20px; 
     
 }
 
