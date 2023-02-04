@@ -29,8 +29,10 @@
  
         <div class="timeDateTabel">
         <form>
-            <label for="start" >Select Date:</label>
-            <input type="date" class="optionStyle" id="start" name="trip-start" value="2023-02-09" min="2023-02-09" max="2023-12-31">
+
+            <label for="date">Select Date:</label>
+            <input type="date" class="optionStyle" onload="getDate()" class="form-control" id="date" value="dd/mm/yyyy" max="2023-12-31"
+              name="date">
 
             <br><br>
 
@@ -38,7 +40,7 @@
 
         <h3>Select time</h3> <br>
 
-        <nav class="timeLinks" style="margin-left: 150px;">Morning:
+        <nav class="timeLinks" style="margin-left: 100px;">Morning:
             <ul class="timeUL">
                 <li class="timeLi"><a  class="timeA" href="information.html">11:00 AM</a></li>
                 <li class="timeLi"><a  class="timeA" href="information.html">11:15 AM</a></li>
@@ -47,7 +49,7 @@
             </ul>
         </nav>
 
-        <nav class="timeLinks" style=" margin-left: 150px; margin-top: 20px;">Afternoon:
+        <nav class="timeLinks" style=" margin-left: 100px; margin-top: 20px;">Afternoon:
             <ul class="timeUL">
                 <li class="timeLi"><a  class="timeA" href="information.html">12:00 PM</a></li>
                 <li class="timeLi"><a  class="timeA" href="information.html">12:15 PM</a></li>
@@ -64,7 +66,7 @@
             </ul>
         </nav>
 
-        <nav class="timeLinks" style=" margin-top: 20px; margin-left: 150px;">Evening:
+        <nav class="timeLinks" style=" margin-top: 20px; margin-left: 100px;">Evening:
             <ul class="timeUL">
                 <li class="timeLi"><a  class="timeA" href="information.html">3:00 PM</a></li>
                 <li class="timeLi"><a  class="timeA" href="information.html">3:15 PM</a></li>
