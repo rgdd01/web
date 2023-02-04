@@ -155,7 +155,7 @@ button a{
 }
 .tableHomePage {
     padding:20px;
-   
+    
 }
 .div1{
     width: 300px;
@@ -306,6 +306,7 @@ header{
     color: #ffffff;
 }
 
+
 .nav-bar-page{
     flex: 1;
     text-align: right;
@@ -349,7 +350,7 @@ header{
     width: 1000px;
     height: 10px;
     float: left;
-    margin-left: 100px;
+    margin-left: 220px;
     margin-top: 15px;
     padding: 30px;
     border: 1px solid rgba(147, 123, 71, 0.639);
@@ -393,7 +394,7 @@ em{
     height: 350px;
     float: left;
     margin-top: 0px;
-    margin-left: 100px;
+    margin-left: 220px;
     padding: 20px;
     border: 1px solid rgba(95, 53, 88, 0.639);
     
@@ -409,7 +410,7 @@ em{
     height: 600px;
     float: left;
     margin-top: 0px;
-    margin-left: 100px;
+    margin-left: 220px;
     padding: 20px;
     border: 1px solid rgba(95, 53, 88, 0.639);
     
@@ -426,7 +427,7 @@ em{
     height:550px;
     float: left;
     margin-top: 0px;
-    margin-left: 100px;
+    margin-left: 220px;
     padding: 20px;
     border: 1px solid rgba(95, 53, 88, 0.639);
     
@@ -434,7 +435,7 @@ em{
 
 #text{
     width: 350px;
-    text-align: left;
+    text-align: center;
 }
 
 
