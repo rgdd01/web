@@ -42,6 +42,13 @@ function Signup(){
 
   //مفروض تتسجل هذي البيانات في الداتابيس 
 
+  // ظهور نافذة التاكيد (هل انت متاكد)
+  return confirm("Are you sure it is your correct email?");
+
 }
  
-  
+//ظهور لون خلفيه مختلف عند الضغط
+function labelBG(x){
+  x.style.background="#B2B2B2";
+
+}
