@@ -50,7 +50,7 @@ app.all('/login', (req, res) => {
               return done(null, false)
           } 
           if(!user) {
-            console.log("username of password wrong")
+            console.log("username or password wrong")
             res.render("errorloginpage")
           }
           if (user) {
