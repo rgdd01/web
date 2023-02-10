@@ -1,15 +1,13 @@
 function Confirm(){
-  document.getElementById('Confirm').innerHTML = 'your reservation has been successfully confirmed';
-
+  document.getElementById('Confirm').innerHTML = 'Your reservation has been successfully confirmed ! Thank you.';
 }
+
 function age(){
   var ud = document.getElementById('day').value;
   var um =document.getElementById('month').value;
   var date = new Date();
   var d = date.getDate();
   var m =1+ date.getMonth();
-  var 	Month = [31, 28,31,30,31,30,31,31,30,31,30,31];
-     
       if(ud==d && um==m){
         document.getElementById('BDc').innerHTML='You got the discount !';
       }
@@ -17,6 +15,9 @@ function age(){
         document.getElementById('BDc').innerHTML='Sorry , today is not your birthday !';
       }
 } 
+//var a = document.querySelector('#start');
+//var date =new Date();
+//a.value=+date.getFullYear().toString()+'-'+(date.getMonth()+1).toString().padStart(2,0)+'-'+date.getDate().toString().padStart(2,0);
 
 // to get the date og today
 function getDate(){
@@ -41,6 +42,13 @@ function Signup(){
 
   //مفروض تتسجل هذي البيانات في الداتابيس 
 
+  // ظهور نافذة التاكيد (هل انت متاكد)
+  return confirm("Are you sure it is your correct email?");
+
 }
  
-  
+//ظهور لون خلفيه مختلف عند الضغط
+function labelBG(x){
+  x.style.background="#B2B2B2";
+
+}

@@ -528,10 +528,10 @@ em{
     border-width: medium;
     border-radius: 30px;
     padding: 50px;
-    height: 300px;
+    height: 550px;
     width: 400px;
     position: relative;
-    text-align: center;
+   
 
 }
 
@@ -541,17 +541,15 @@ em{
     border-radius: 30px;
 }
 
-.titleTimePage{
-    background-color: rgba(174, 166, 174, 0.705);
-    text-align: center;
-    width: 400px;
-    height: 30px;
-    margin-left: 520px;
-    margin-bottom: 20%;
-    font-size: 30px;
-    text-decoration: underline;
- 
+label{
+    color: rgb(26, 25, 25);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding-right: 3px;
+   
+
 }
+
 /* selecting time in date/time page */
 
 .timeLinks{
@@ -601,7 +599,7 @@ em{
 
 .infoTabel{
     margin-top: 3%;
-    margin-left: 30%;
+    margin-left: 28%;
     background-color: rgba(209, 197, 180, 0.861);
     opacity: 0.9;
     border: 1px solid rgba(95, 53, 88, 0.639);
@@ -614,18 +612,17 @@ em{
     text-align: center;
 }
 .titleInfoPage{
-    background-color: rgba(174, 166, 174, 0.705);
+   padding-bottom: 10%;
+    text-decoration: underline white;
     text-align: center;
-    width: 400px;
-    height: 30px;
-    margin-top: 2%;
-    margin-left: 30%;
-    font-size: 30px;
-    text-decoration: underline;
+    font-size: 35px;
+    color: rgba(32, 7, 35, 0.724);
+    
 }
-#BDc{
-    font-size: small;
-    color: rgb(74, 72, 72);
+#message{
+    font-size: 15px;
+    color: rgb(57, 56, 56);
+    
 }
 .inputStyle{
     background-color: rgb(227, 227, 219);
@@ -908,6 +905,17 @@ ul{
   .footer-col{
     width: 100%;
 }
+}
+
+#CConfirm_msg{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #322f2f;
+}
+#messageLogin{
+    font-size: 15px;
+    color: rgb(57, 56, 56);
+    text-decoration: underline;
 }
 
  /* ------------------------------------ */
