@@ -34,7 +34,7 @@ Our website offers many services, including:
 
 Flow chart
  
-
+<img width="237" alt="Picture1" src="https://user-images.githubusercontent.com/117592666/218272887-79cd3dd7-d43b-4def-b1f4-eb97b86a837f.png">
 
 
 
