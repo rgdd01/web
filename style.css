@@ -121,16 +121,18 @@ button a{
 #table{
     width:100%;
     text-align: center;
-    position: relative;
-    margin:auto;
+    
     top:0;
     bottom:0;
     left:0;
     right:0;
     padding:0px;
+   
+    
 }
 .tableHomePage {
-    padding:20px;
+    padding: 75px;
+   
     
 }
 .div1{
@@ -413,7 +415,7 @@ em{
     background-color: rgba(209, 197, 180, 0.861);
     text-align: left;
     width: 1000px;
-    height: 350px;
+    height: 380px;
     float: left;
     margin-top: 0px;
     margin-left: 220px;
@@ -429,7 +431,7 @@ em{
     background-color: rgba(209, 197, 180, 0.861);
     text-align: left;
     width: 1000px;
-    height: 600px;
+    height: 610px;
     float: left;
     margin-top: 0px;
     margin-left: 220px;
@@ -447,7 +449,7 @@ em{
     background-color: rgba(209, 197, 180, 0.861);
     text-align: left;
     width: 1000px;
-    height:550px;
+    height:600px;
     float: left;
     margin-top: 0px;
     margin-left: 220px;
@@ -458,7 +460,7 @@ em{
 
 #text{
     width: 350px;
-    text-align: center;
+    margin-left: 520px;
 }
 
 
@@ -472,7 +474,7 @@ em{
     position: top ;
     margin-top: 50px;
     position: relative;
-    margin-left: 500px ;
+    margin-left: 600px ;
     border: 1.5px solid rgb(8, 7, 8);
     padding: 20px; 
     border-spacing: 4px;
@@ -521,7 +523,7 @@ em{
 
 .timeDateTabel{
     margin-top: 3%;
-    margin-left: 32.5%;
+    margin-left: 35%;
     background-color: rgba(209, 197, 180, 0.861);
     opacity: 0.9;
     border: 1px solid rgba(95, 53, 88, 0.639);
@@ -599,7 +601,7 @@ label{
 
 .infoTabel{
     margin-top: 3%;
-    margin-left: 28%;
+    margin-left: 33%;
     background-color: rgba(209, 197, 180, 0.861);
     opacity: 0.9;
     border: 1px solid rgba(95, 53, 88, 0.639);
@@ -719,7 +721,7 @@ label{
     height: 200px;
     padding: 15px;
     margin: 150px;
-    margin-left: 250px;
+    margin-left: 350px;
     
 }
 
@@ -907,7 +909,7 @@ ul{
 }
 }
 
-#CConfirm_msg{
+#Confirm_msg{
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #322f2f;
